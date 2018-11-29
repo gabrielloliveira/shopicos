@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SHOPicos</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Bulma Version 0.7.2-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+  <!-- <link href="https://unpkg.com/bulma-fluent@0.3.13/css/bulma.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="../css/personal.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <script async type="text/javascript" src="../js/bulma.js"></script>
+  <style>
+    #produtos{
+      margin-top: 50px;
+    }
+    .is-pulled-right{
+      margin-left: 5px;
+    }
+    .logo{
+      font-family: 'Permanent Marker', cursive;
+      font-size: 24px;
+    }
+    .logo-menor{
+      font-family: 'Permanent Marker', cursive; 
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-brand">
+        <a class="navbar-item logo" href="https://bulma.io">
+          SHOPicos
+        </a>
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-list"></i>
+          </span>
+          <span>Categorias</span>
+        </a>
+        <a class="navbar-item" href="#services">
+          <span class="icon">
+            <i class="fas fa-luggage-cart"></i>
+          </span>
+          <span>Meu carrinho</span>
+        </a>
+        <form action="" class="navbar-item">
+          <input type="text" class="input" placeholder="Digite o que procura..">
+          <button class="button is-default">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </button>
+        </form>
+        <form action="" class="navbar-item">
+          <button class="button is-danger">
+            Sair
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Portfolio -->
+  <section class="section" id="produtos">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Casa</h3>
+        <h4 class="subtitle is-5">Últimas promoções</h4>
+      </div>
+      <br>
+
+      <div class="container portfolio-container">
+        <div class="columns">
+          <div class="column is-4">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Poltrona reclinável</span>
+                  <span class="is-pulled-right">
+                    <span class="tag is-default">Novo</span>
+                    <span class="tag is-success">- 15%</span>
+                    <span class="tag is-info">R$ 750,00</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="http://www.casamodelosa.com.br/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/p/o/poltrona-aspen-reclinavel-em-couro-salvatore-minuano.jpg">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">
+                  <span class="icon">
+                    <i class="fas fa-clipboard-list"></i>
+                  </span>
+                  <span>Lista de desejos</span>
+                </a>
+                <a href="#" class="card-footer-item">
+                  <span class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <span>Comprar</span>
+                </a>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Sofá de couro</span>
+                  <span class="is-pulled-right">
+                    <span class="tag is-default">Novo</span>
+                    <span class="tag is-success">- 10%</span>
+                    <span class="tag is-info">R$ 1.250,00</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="https://www.pontofrio-imagens.com.br/Moveis/SaladeEstar/Sofas/7745319/718102321/Sofa-2-Lugares-Quebec-Couro-Sintetico--7745319.jpg">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">
+                  <span class="icon">
+                    <i class="fas fa-clipboard-list"></i>
+                  </span>
+                  <span>Lista de desejos</span>
+                </a>
+                <a href="#" class="card-footer-item">
+                  <span class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <span>Comprar</span>
+                </a>
+              </footer>
+            </div>
+          </div>
+          <div class="column is-4">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Mesa de jantar</span>
+                  <span class="is-pulled-right">
+                    <span class="tag is-default">Novo</span>
+                    <span class="tag is-success">- 20%</span>
+                    <span class="tag is-info">R$ 950,00</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="https://images.taqi.com.br/large_730x730/mesa-6-cadeiras-milano-amendoa-off_z_large.jpg">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">
+                  <span class="icon">
+                    <i class="fas fa-clipboard-list"></i>
+                  </span>
+                  <span>Lista de desejos</span>
+                </a>
+                <a href="#" class="card-footer-item">
+                  <span class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                  <span>Comprar</span>
+                </a>
+              </footer>
+            </div
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-heading has-text-centered">
+      <p>
+        <strong class="logo-menor">SHOPicos</strong> 2018. 
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
